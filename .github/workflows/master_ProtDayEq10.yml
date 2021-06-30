@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'ProtDayEq10'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_9a2a172bf35c4e74b19dee55049f1028 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_691dd857b68542d1820b512fbb2d7fdc }}
