@@ -371,7 +371,7 @@ $('#start_button').click(function (ev) {
     let ticker = $('#empresa_selected').val();
     $('#emp_name').html(empresas[ticker]);
     $.ajax({
-        url:"http://localhost:5000/pred",
+        url:"https://helloflaskeq10.azurewebsites.net/pred",
         data:{
             token:ticker
         },
