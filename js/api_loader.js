@@ -423,7 +423,7 @@ function createPredChart(pred_graph,api_json) {
         order:0,
     };
     pred_config = {
-        label: 'Precio de cierre',
+        label: 'Predicción',
         blineTension: 0.3,
         backgroundColor: "rgba(78, 115, 223, 0.05)",
         borderColor: "rgba(208, 47, 33, 1)",
